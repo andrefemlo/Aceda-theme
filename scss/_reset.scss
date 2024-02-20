@@ -1,0 +1,21 @@
+* {
+    @apply m-0 p-0 box-border border-none outline-none font-normal antialiased align-top;
+    text-decoration: none;
+}
+
+html {
+    @apply scroll-smooth overflow-hidden;
+}
+
+img {
+    @apply max-w-full block h-fit object-contain;
+}
+
+button {
+    @apply cursor-pointer bg-transparent border-0;
+}
+
+span{
+    font-weight: inherit;
+    font-size: inherit;
+}
