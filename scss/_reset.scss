@@ -1,10 +1,10 @@
 * {
-    @apply m-0 p-0 box-border border-none outline-none font-normal antialiased align-top;
+    @apply m-0 p-0 box-border border-none outline-none font-normal antialiased font-sans transition-all duration-200 align-text-bottom;
     text-decoration: none;
 }
 
 html {
-    @apply scroll-smooth overflow-hidden;
+    @apply scroll-smooth;
 }
 
 img {
@@ -13,9 +13,4 @@ img {
 
 button {
     @apply cursor-pointer bg-transparent border-0;
-}
-
-span{
-    font-weight: inherit;
-    font-size: inherit;
 }

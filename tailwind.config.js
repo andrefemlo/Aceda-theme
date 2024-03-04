@@ -4,13 +4,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'green-600' : '#278F48',
+        'lime'      : '#BED73B',
+        'blue-600'  : '#2C4D97',
+        'blue-300'  : '#2EF0FF',
+        'yellow'    : '#FFE32D',
         
       },
       spacing: {
-        container: '1240px',
         screen: '100dvw',
       },
       fontFamily: {
+        sans: ['Outfit', 'sans-serif']
       },
       animation: {
         'float': 'floating 3s linear infinite',
@@ -20,7 +25,17 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(-10px)' },
           '50%': { transform: 'translateY(10px)' },
         }
-      }
+      },
+      container: {
+        center: true,
+        padding: '1rem',
+        screens: {
+          sm: '100%',
+          md: '100%',
+          lg: '100%',
+          xl: '1180px',
+        },
+      },
     },
     screens: {
       '2xl' : {'max': '1400px'},

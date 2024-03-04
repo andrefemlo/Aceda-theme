@@ -1,0 +1,19 @@
+.btn{
+    @apply  bg-yellow font-semibold text-green-600 px-6 py-2 rounded-3xl flex w-fit hover:scale-105;
+    
+    &.main{
+        @apply text-2xl px-8;
+    }
+
+    &.yellow-blue{
+        @apply text-blue-600;
+    }
+
+    &.link{
+        @apply bg-transparent underline underline-offset-2 text-blue-600;
+    }
+
+    &.white{
+        @apply text-white;
+    }
+}

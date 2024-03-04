@@ -1,252 +1,242 @@
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-ExtraLightItalic.woff2') format('woff2'),
-        url('DMSans-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
+    font-family: 'Aleo';
+    src: url('Aleo-Bold.woff2') format('woff2'),
+        url('Aleo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('Aleo-BoldItalic.woff2') format('woff2'),
+        url('Aleo-BoldItalic.woff') format('woff');
+    font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-Black.woff2') format('woff2'),
-        url('DMSans-Black.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-ExtraBold.woff2') format('woff2'),
+        url('Aleo-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('Aleo-Black.woff2') format('woff2'),
+        url('Aleo-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-ExtraBoldItalic.woff2') format('woff2'),
-        url('DMSans-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-BlackItalic.woff2') format('woff2'),
-        url('DMSans-BlackItalic.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-BlackItalic.woff2') format('woff2'),
+        url('Aleo-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-BoldItalic.woff2') format('woff2'),
-        url('DMSans-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-Bold.woff2') format('woff2'),
-        url('DMSans-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-ExtraLight.woff2') format('woff2'),
-        url('DMSans-ExtraLight.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-ExtraLight.woff2') format('woff2'),
+        url('Aleo-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-Italic.woff2') format('woff2'),
-        url('DMSans-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-ExtraBold.woff2') format('woff2'),
-        url('DMSans-ExtraBold.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-ExtraBoldItalic.woff2') format('woff2'),
+        url('Aleo-ExtraBoldItalic.woff') format('woff');
     font-weight: bold;
-    font-style: normal;
+    font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-Medium.woff2') format('woff2'),
-        url('DMSans-Medium.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-Medium.woff2') format('woff2'),
+        url('Aleo-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-LightItalic.woff2') format('woff2'),
-        url('DMSans-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-Thin.woff2') format('woff2'),
-        url('DMSans-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-SemiBold.woff2') format('woff2'),
-        url('DMSans-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-SemiBoldItalic.woff2') format('woff2'),
-        url('DMSans-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-MediumItalic.woff2') format('woff2'),
-        url('DMSans-MediumItalic.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-MediumItalic.woff2') format('woff2'),
+        url('Aleo-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-ThinItalic.woff2') format('woff2'),
-        url('DMSans-ThinItalic.woff') format('woff');
-    font-weight: 100;
+    font-family: 'Aleo';
+    src: url('Aleo-LightItalic.woff2') format('woff2'),
+        url('Aleo-LightItalic.woff') format('woff');
+    font-weight: 300;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-Light.woff2') format('woff2'),
-        url('DMSans-Light.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-ExtraLightItalic.woff2') format('woff2'),
+        url('Aleo-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('Aleo-Italic.woff2') format('woff2'),
+        url('Aleo-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('Aleo-Light.woff2') format('woff2'),
+        url('Aleo-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('DMSans-Regular.woff2') format('woff2'),
-        url('DMSans-Regular.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-Regular.woff2') format('woff2'),
+        url('Aleo-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Aleo';
+    src: url('Aleo-SemiBoldItalic.woff2') format('woff2'),
+        url('Aleo-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
 
 @font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-Blk.woff2') format('woff2'),
-        url('TTBluescreensTrial-Blk.woff') format('woff');
+    font-family: 'Aleo';
+    src: url('Aleo-ThinItalic.woff2') format('woff2'),
+        url('Aleo-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('Aleo-SemiBold.woff2') format('woff2'),
+        url('Aleo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('Aleo-Thin.woff2') format('woff2'),
+        url('Aleo-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-Black.woff2') format('woff2'),
+        url('Outfit-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-Db.woff2') format('woff2'),
-        url('TTBluescreensTrial-Db.woff') format('woff');
-    font-weight: 600;
+    font-family: 'Outfit';
+    src: url('Outfit-ExtraBold.woff2') format('woff2'),
+        url('Outfit-ExtraBold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-XLt.woff2') format('woff2'),
-        url('TTBluescreensTrial-XLt.woff') format('woff');
+    font-family: 'Outfit';
+    src: url('Outfit-ExtraLight.woff2') format('woff2'),
+        url('Outfit-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-XBd.woff2') format('woff2'),
-        url('TTBluescreensTrial-XBd.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-Bd.woff2') format('woff2'),
-        url('TTBluescreensTrial-Bd.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-Lt.woff2') format('woff2'),
-        url('TTBluescreensTrial-Lt.woff') format('woff');
+    font-family: 'Outfit';
+    src: url('Outfit-Light.woff2') format('woff2'),
+        url('Outfit-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Bluescreens Trial Variable';
-    src: url('TTBluescreensTrialVariable.woff2') format('woff2'),
-        url('TTBluescreensTrialVariable.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Outfit';
+    src: url('Outfit-Bold.woff2') format('woff2'),
+        url('Outfit-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-Rg.woff2') format('woff2'),
-        url('TTBluescreensTrial-Rg.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-Thin.woff2') format('woff2'),
-        url('TTBluescreensTrial-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Bluescreens Trial';
-    src: url('TTBluescreensTrial-Md.woff2') format('woff2'),
-        url('TTBluescreensTrial-Md.woff') format('woff');
+    font-family: 'Outfit';
+    src: url('Outfit-Medium.woff2') format('woff2'),
+        url('Outfit-Medium.woff') format('woff');
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-SemiBold.woff2') format('woff2'),
+        url('Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-Regular.woff2') format('woff2'),
+        url('Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-Thin.woff2') format('woff2'),
+        url('Outfit-Thin.woff') format('woff');
+    font-weight: 100;
     font-style: normal;
     font-display: swap;
 }

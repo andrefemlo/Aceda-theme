@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6 { @apply leading-tight font-bold; }
 
 h1 { @apply text-5xl leading-[56px] md:leading-tight; }
 
-h2 { @apply text-3xl leading-[40px] md:text-2xl; }
+h2 { @apply text-4xl leading-[40px] lg:text-3xl md:text-2xl; }
 
 h3 { @apply text-2xl; }
 
@@ -13,10 +13,25 @@ h5 { @apply text-lg; }
 
 h6 { @apply text-base; }
 
-p, a { @apply text-base leading-tight; }
+p, a { @apply text-base leading-normal; }
 
 small { @apply text-sm leading-5; }
+
+ul{ @apply list-inside; }
 
 .caption{ @apply text-xs; }
 
 .subtitle{ @apply text-xl md:text-lg; }
+
+span{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.swiper-pagination-bullet{
+    @apply opacity-30 bg-blue-300 size-3 rounded-3xl;
+    
+    &.swiper-pagination-bullet-active{
+        @apply w-5 rounded-3xl bg-blue-600 opacity-100;
+    }
+} 

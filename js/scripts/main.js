@@ -59,35 +59,68 @@ openSubmenu();
 
 
 // SwiperJS Template
-// let swiper = new Swiper('.swiper', {
-//   slidesPerView: 3,
-//   lazy: true,
-//   loop: true,
-//   centeredSlides: true,
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
-//   autoplay: {
-//     delay: 4000,
-//   },
-//   breakpoints: {
-//     0: {
-//       slidesPerView: 1,
-//     },
-//     767: {
-//       slidesPerView: 2,
-//       spaceBetween: 0,
-//     },
-//     1140: {
-//       slidesPerView: 3,
-//       spaceBetween: 0,
-//     },
-//   },  
-// });
+let swiper = new Swiper('.swiper-posts', {
+  slidesPerView: 3,
+  lazy: true,
+  loop: true,
+  // centeredSlides: true,
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
+  pagination: {
+    el: '.swiper-pagination-posts',
+    clickable: true,
+  },
+  autoplay: {
+    delay: 4000,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 16,
+    },
+    767: {
+      slidesPerView: 2,
+      spaceBetween: 32,
+    },
+    1140: {
+      slidesPerView: 4,
+      spaceBetween: 32,
+    },
+  },  
+});
+let swiperCursos = new Swiper('.swiper-cursos', {
+  slidesPerView: 3,
+  lazy: true,
+  loop: true,
+  // centeredSlides: true,
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
+  pagination: {
+    el: '.swiper-pagination-cursos',
+    clickable: true,
+  },
+  autoplay: {
+    delay: 4000,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 16,
+    },
+    767: {
+      slidesPerView: 2,
+      spaceBetween: 32,
+    },
+    1140: {
+      slidesPerView: 4,
+      spaceBetween: 32,
+    },
+  },  
+});
 
 
 

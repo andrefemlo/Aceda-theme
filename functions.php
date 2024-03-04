@@ -107,4 +107,6 @@ function load_more_posts() {
  
  add_action('wp_ajax_load_more_posts', 'load_more_posts');
  add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
+
+ $themeurl = get_template_directory_uri( );
  
